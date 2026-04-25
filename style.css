@@ -1,0 +1,33 @@
+body {
+    background-color: rgba(18, 126, 42, 0.945);
+    color: white;
+    font-family: "Bai Jamjurre", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+}
+
+button {
+    background-color: rgba(19, 83, 38, 0.774);
+    color: white;
+    font-family: "Bai Jamjurre", sans-serif;
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display: block;
+}
+
+main {
+    text-align: center;
+    max-width: 90%;
+}
+
+img {
+    max-width: 90%;
+}
